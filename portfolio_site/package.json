@@ -1,6 +1,5 @@
 {
   "name": "portfolio_site",
-  "homepage": "http://harrydesigns.ca",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
