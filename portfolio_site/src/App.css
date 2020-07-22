@@ -2,6 +2,16 @@
   text-align: center;
 }
 
+#navbar {
+  text-align: left;
+  list-style-type: none;
+}
+
+#NavHome #NavAbout #NavContact {
+  text-decoration: none;
+  color: green;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
