@@ -15,21 +15,21 @@ class Main extends Component {
   render() {
     return (
       <div className="main">
+        <BrowserRouter>
         <div>
           <div className="mainNav">
             <NavBar />
           </div>
           <div className="content">
-            <BrowserRouter>
                 <Switch>
                  <Route path="/" component={Home} exact/>
                  <Route path="/about" component={About}/>
                  <Route path="/contact" component={Contact}/>
                 <Route component={Error}/>
                </Switch>
-             </BrowserRouter>
            </div>
          </div>
+         </BrowserRouter>
       </div>
     );
   }
