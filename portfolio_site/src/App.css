@@ -12,6 +12,29 @@
   color: green;
 }
 
+.main {
+  overflow: hidden;
+}
+
+.main > * {
+  display: flex;
+  flex-wrap: wrap;
+  margin: calc(var(--s1) / 2 * -1);
+}
+
+.main > * > * {
+  margin: calc(var(--s1) / 2);
+  flex-basis: 100;
+  flex-grow: 1;
+}
+
+.main > * > :last-child {
+  flex-basis: 0;
+  flex-grow: 999;
+  min-width: calc(50% - var(--s1));
+}
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

@@ -15,16 +15,20 @@ class Main extends Component {
   render() {
     return (
       <div className="main">
-        <div className="mainNav">
-          <BrowserRouter>
+        <div>
+          <div className="mainNav">
             <NavBar />
-              <Switch>
-               <Route path="/" component={Home} exact/>
-               <Route path="/about" component={About}/>
-               <Route path="/contact" component={Contact}/>
-              <Route component={Error}/>
-             </Switch>
-           </BrowserRouter>
+          </div>
+          <div className="content">
+            <BrowserRouter>
+                <Switch>
+                 <Route path="/" component={Home} exact/>
+                 <Route path="/about" component={About}/>
+                 <Route path="/contact" component={Contact}/>
+                <Route component={Error}/>
+               </Switch>
+             </BrowserRouter>
+           </div>
          </div>
       </div>
     );
