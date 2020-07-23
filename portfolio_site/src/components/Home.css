@@ -1,0 +1,89 @@
+.headText {
+  font-size: 8em;
+  color: white;
+  text-align: right;
+  font-weight: lighter;
+  padding-top: 10%;
+}
+
+.lowerText {
+  text-align: right;
+  color: white;
+  font-size: 5em;
+  font-weight: lighter;
+  padding-bottom: 0em;
+}
+
+.homeContainer {
+  padding-right: 4em;
+}
+
+#navbar {
+  text-align: center;
+  list-style-type: none;
+  padding-left: 0px;
+  font-size: 1.3em;
+  padding-top: 10em;
+}
+
+button {
+  float: right;
+  font-size: 2em;
+}
+
+a {
+  text-decoration: none;
+  line-height: 2em;
+}
+
+.main {
+  background-image: url("./back-image.jpg");
+  background-repeat: no-repeat, repeat;
+  background-color: #cccccc;
+  width: 100%;
+  height: 100vh;
+}
+
+.mainNav {
+  background-color: rgba(51, 51, 51, 0.08);
+  background-repeat: no-repeat, repeat;
+  width: 100%;
+  height: 100vh;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: grey;
+}
+
+.main {
+  overflow: hidden;
+}
+
+.main > * {
+  display: flex;
+  flex-wrap: wrap;
+  margin: calc(var(--s1) / 2 * -1);
+}
+
+.main > * > * {
+  margin: calc(var(--s1) / 2);
+  flex-basis: 20em;
+  flex-grow: 1em;
+}
+
+.main > * > :last-child {
+  flex-basis: 0em;
+  flex-grow: 999;
+  min-width: calc(50% - var(--s1));
+}
+
+.navPic {
+  border-radius: 50%;
+  width: 40%;
+  padding-left: auto;
+  padding-right: auto;
+}

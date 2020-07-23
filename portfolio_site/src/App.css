@@ -1,39 +1,10 @@
-#navbar {
-  text-align: center;
-  list-style-type: none;
-  padding-left: 0px;
-}
-
-#NavHome #NavAbout #NavContact {
-  text-decoration: none;
-  color: green;
-}
-
-.main {
-  overflow: hidden;
-}
-
-.main > * {
-  display: flex;
-  flex-wrap: wrap;
-  margin: calc(var(--s1) / 2 * -1);
-}
-
-.main > * > * {
-  margin: calc(var(--s1) / 2);
-  flex-basis: 20em;
-  flex-grow: 1em;
-}
-
-.main > * > :last-child {
-  flex-basis: 0em;
-  flex-grow: 999;
-  min-width: calc(50% - var(--s1));
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+html * {
+  font-family: 'Playfair Display', serif;
 }
 
 @media (prefers-reduced-motion: no-preference) {
