@@ -1,28 +1,34 @@
 import React, { Component } from "react";
 import {
   Route,
-  NavLink,
   Switch,
   BrowserRouter
 } from "react-router-dom";
 import Home from "./components/Home";
-import Main from "./components/Main";
 import About from "./components/About";
 import NavBar from "./components/NavBar";
 import Contact from "./components/Contact";
 import Projects from "./components/Projects";
-import './App.css';
-import './components/Home.css';
+import Content from "./components/Content";
+import "./App.css";
 
 class App extends Component {
   render() {
     return (
-      <div>
-        <NavBar />
-        <Main />
+      <div className="main">
+        <BrowserRouter>
+          <div>
+            <div className="mainNav">
+              <NavBar />
+            </div>
+            <div className="content">
+              <Content />
+             </div>
+           </div>
+         </BrowserRouter>
       </div>
     );
   }
 }
 
-export default Main;
+export default App;

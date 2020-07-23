@@ -1,10 +1,11 @@
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
 html * {
   font-family: 'Playfair Display', serif;
+}
+
+html {
+  background-image: url("./back-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 @media (prefers-reduced-motion: no-preference) {

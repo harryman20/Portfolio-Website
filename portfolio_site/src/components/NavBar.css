@@ -1,0 +1,30 @@
+.navPic {
+  border-radius: 50%;
+  width: 3%;
+  margin-left: 0.5em;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: grey;
+}
+
+#navbar {
+  list-style-type: none;
+  font-size: 1.2em;
+  padding-top: 0em;
+  margin-top: 1em;
+}
+
+.rightNav {
+  display: flex;
+  float: right;
+  padding-right: 2em;
+}
+
+.rightNav > li {
+  padding-right: 3em;
+}
