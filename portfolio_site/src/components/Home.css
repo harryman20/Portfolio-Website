@@ -4,6 +4,7 @@
   text-align: right;
   font-weight: normal;
   padding-top: 8%;
+  text-shadow: 2px 1px grey;
 }
 
 .lowerText {
@@ -12,6 +13,12 @@
   font-size: 5em;
   font-weight: normal;
   padding-bottom: 0em;
+  text-shadow: 2px 1px grey;
+}
+
+.hiddenElement {
+  width: 100wh;
+  height: 100vh;
 }
 
 .homeContainer {

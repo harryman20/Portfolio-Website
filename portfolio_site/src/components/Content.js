@@ -1,12 +1,10 @@
 import React, { Component } from "react";
 import {
   Route,
-  Switch,
-  BrowserRouter
+  Switch
 } from "react-router-dom";
 import Home from "./Home";
 import About from "./About";
-import NavBar from "./NavBar";
 import Contact from "./Contact";
 import Projects from "./Projects";
 
