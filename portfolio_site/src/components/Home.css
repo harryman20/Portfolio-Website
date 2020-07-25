@@ -16,29 +16,22 @@
   text-shadow: 2px 1px grey;
 }
 
-.hiddenElement {
-  width: 100wh;
-  height: 100vh;
-}
-
 .homeContainer {
   padding-right: 4em;
 }
 
-button {
+button.moreButton {
+  color: black;
   float: right;
-  font-size: 2em;
-}
-
-button {
-  font-family: Arial;
-  color: #black;
-  font-size: 20px;
+  font-size: 1.2em;
   background: rgba(255, 255, 255, 0.6);
   padding: 10px 20px 10px 20px;
   border: solid black 2px;
   text-decoration: none;
   margin-top: 2em;
+  cursor:pointer;
+  display: block;
+  clear: both;
 }
 
 button:hover {
@@ -50,4 +43,22 @@ button:hover {
 a {
   text-decoration: none;
   line-height: 2em;
+}
+
+div#alert {
+  display: none;
+  position: relative;
+}
+
+button.funButton {
+  color: black;
+  float: right;
+  font-size: 1.2em;
+  background: rgba(255, 255, 255, 0.6);
+  padding: 10px 20px 10px 20px;
+  border: solid black 2px;
+  text-decoration: none;
+  margin-top: 2em;
+  display: block;
+  clear: both;
 }

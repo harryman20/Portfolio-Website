@@ -11,7 +11,7 @@ import Projects from "./Projects";
 class Content extends Component {
   render() {
     return (
-      <div>
+      <div className="contentContainer">
         <Switch>
           <Route path="/" component={Home} exact/>
           <Route path="/projects" component={Projects} exact/>

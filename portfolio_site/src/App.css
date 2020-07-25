@@ -6,34 +6,21 @@ html {
   background-image: url("./back-image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100%;
+  margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+div#blur {
+  z-index: 0;
+  position: relative;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+div#root, div#blur, div.content, div.main, div.contain, div#hiddenElement, div.contentContainer, div.homeContainer{
+  height: 100%;
 }

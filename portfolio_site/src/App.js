@@ -9,13 +9,13 @@ class App extends Component {
     return (
       <div className="main">
         <BrowserRouter>
-          <div>
+          <div className="contain">
             <div className="mainNav">
               <NavBar />
             </div>
             <div className="content">
               <Content />
-             </div>
+            </div>
            </div>
          </BrowserRouter>
       </div>
