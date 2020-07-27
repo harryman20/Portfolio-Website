@@ -1,1 +1,9 @@
-Hello from the README this is my portfolio site.
+<card>
+	<title>
+		<Title Content props/>
+	</title>
+	<main content>
+		<Photo props/>
+		<Card Content props/>
+	</main content>
+</card>
