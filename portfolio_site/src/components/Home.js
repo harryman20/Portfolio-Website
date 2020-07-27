@@ -6,12 +6,10 @@ import "./NavBar.css";
 class Home extends Component {
   render() {
     function blurBackgroundStart() {
-      // document.getElementById('blur').style.background = "rgba(0, 0, 0, 0.1)";
       document.getElementById('blur').style.filter = "blur(2px)";
     }
 
     function blurBackgroundEnd() {
-      // document.getElementById('blur').style.background = "rgba(255, 255, 255, 0.0)";
       document.getElementById('blur').style.filter = "blur(0px)";
     }
     return (

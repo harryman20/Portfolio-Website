@@ -1,15 +1,21 @@
-import React, { Component } from "react";
-import "./Projects.css";
+import React from 'react';
+import data from './ProjectData';
+import ProjectCard from './ProjectCard';
 
-class Projects extends Component {
-  render() {
-    return (
-      <div className="homeContainer">
-        <h1 className="headText">Welcome to my Portfolio</h1>
-        <h2 className="lowerText">Harrison Smith</h2>
-      </div>
-    );
-  }
+function Project() {
+  return (
+    <div className="wrapper">
+      <h1>Projects</h1>
+      {data.map(project => (
+        <ProjectCard
+          key={project.name}
+          name={project.name}
+          body={project.body}
+          image={project.image}
+          footer={project.footer}/>
+      ))}
+    </div>
+  )
 }
 
-export default Projects;
+export default Project;
