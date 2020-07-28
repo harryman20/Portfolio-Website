@@ -1,27 +1,49 @@
-.card-wrapper {
-    border: solid black 1px;
-    margin: 10px;
-    padding: 10px;
-    width: 200px;
+.card-wrapper:nth-child(odd) {
+  border: solid black 1px;
+  border-radius: 0.3em;
+  width: 30%;
+  float: left;
+  padding: 2rem;
+  margin: 4rem;
+  height: 12rem;
+  box-shadow: 5px 10px rgba(191, 190, 190, 0.40);
+  background-image: url("./WEBSITE.jpg");
+  background-color: #cccccc;
 }
 
-.card-wrapper button {
-    font-size: 1em;
-    border: solid black 1px;
-    padding: 10;
-    background: none;
-    cursor: pointer;
-    margin: 10px 0;
+.card-wrapper:nth-child(even) {
+  border: solid black 1px;
+  border-radius: 0.3em;
+  float: right;
+  width: 30%;
+  padding: 2rem;
+  margin: 4rem;
+  height: 12rem;
+  box-shadow: 5px 10px rgba(191, 190, 190, 0.40);
+  background-image: url("./WEBSITE.jpg");
+  background-color: #cccccc;
+}
+
+div#rightTitle h1 {
+  font-size: 10em;
+  color: white;
+  text-align: center;
+  font-weight: normal;
+  text-shadow: 2px 1px grey;
+  position: fixed;
+  top: 0px;
 }
 
 .wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 20px;
+  width: 100%;
 }
 
-.wrapper h1 {
-    text-align: center;
-    width: 100%;
+div#rightTitle {
+  width: 40%;
+  float: right;
+}
+
+div#leftCards {
+  width: 60%;
+  float: left;
 }
