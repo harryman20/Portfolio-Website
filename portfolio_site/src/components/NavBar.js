@@ -17,13 +17,13 @@ class NavBar extends Component {
       <nav>
         <ul id="navbar">
           <img className="navPic"
-                onMouseEnter={blurBackgroundStart}
-                onMouseLeave={blurBackgroundEnd}
-                src={pfp} alt="Logo" />
+          onMouseEnter={blurBackgroundStart}
+          onMouseLeave={blurBackgroundEnd}
+          src={pfp} alt="Logo" />
           <div className="rightNav">
             <li><Link id="NavHome" to="/">Home</Link></li>
             <li><Link id="NavProject" to="/projects">Projects</Link></li>
-            <li><Link id="NavAbout" to="/about">About</Link></li>
+            <li><Link id="NavAbout" to="/about">Who I Am</Link></li>
             <li><Link id="NavContact" to="/contact">Contact</Link></li>
           </div>
         </ul>

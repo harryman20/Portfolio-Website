@@ -6,9 +6,11 @@ html {
   background-image: url("./back-image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100%;
+  padding: 0;
   margin: 0;
   -ms-overflow-style: none;  /* IE and Edge */
-   scrollbar-width: none;  /* Firefox */
+  scrollbar-width: none;  /* Firefox */
 }
 
 body {
@@ -24,4 +26,11 @@ div#blur {
 
 div#root, div#blur, div.content, div.main, div.contain, div#hiddenElement, div.contentContainer, div.homeContainer{
   height: 80%;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }

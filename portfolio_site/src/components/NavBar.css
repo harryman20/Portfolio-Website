@@ -4,6 +4,7 @@
   height: 50px;
   width: 50px;
   margin-left: 0.5em;
+  box-shadow: 2px 1px rgba(59, 59, 59, 0.2);
 }
 
 .navPic:hover {
@@ -16,7 +17,6 @@ a:visited {
 
 a:hover {
   color: grey;
-  text-shadow: 0.1px 0.1px black;
 }
 
 ul#navbar {
