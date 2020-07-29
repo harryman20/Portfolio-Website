@@ -1,7 +1,13 @@
 .navPic {
   border-radius: 50%;
   width: 3%;
+  height: 50px;
+  width: 50px;
   margin-left: 0.5em;
+}
+
+.navPic:hover {
+  animation: pulse 1.5s infinite;
 }
 
 a:visited {

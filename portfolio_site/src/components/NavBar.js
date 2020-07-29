@@ -1,15 +1,25 @@
 import React, {Component} from "react";
 import {Link} from "react-router-dom";
 import "./Home.css";
-import pfp from "./face-placeholder.gif";
+import pfp from "./DSC_2722.jpg";
 
 class NavBar extends Component {
   render(){
+    function blurBackgroundStart() {
+      document.getElementById('blur').style.filter = "blur(2px)";
+    }
+
+    function blurBackgroundEnd() {
+      document.getElementById('blur').style.filter = "blur(0px)";
+    }
     return (
      <div className="nav">
       <nav>
         <ul id="navbar">
-          <img className="navPic" src={pfp} alt="Logo" />
+          <img className="navPic"
+                onMouseEnter={blurBackgroundStart}
+                onMouseLeave={blurBackgroundEnd}
+                src={pfp} alt="Logo" />
           <div className="rightNav">
             <li><Link id="NavHome" to="/">Home</Link></li>
             <li><Link id="NavProject" to="/projects">Projects</Link></li>

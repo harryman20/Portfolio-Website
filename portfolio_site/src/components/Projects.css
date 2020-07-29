@@ -1,4 +1,4 @@
-.card-wrapper:nth-child(odd) {
+.card-wrapper1, .card-wrapper3, .card-wrapper5 {
   border: solid black 1px;
   border-radius: 0.3em;
   width: 30%;
@@ -11,7 +11,7 @@
   background-color: #cccccc;
 }
 
-.card-wrapper:nth-child(even) {
+.card-wrapper2, .card-wrapper4, .card-wrapper6 {
   border: solid black 1px;
   border-radius: 0.3em;
   float: right;
@@ -24,6 +24,14 @@
   background-color: #cccccc;
 }
 
+.card-content1, .card-content2, .card-content3, .card-content4, .card-content5, .card-content6 {
+  display: none;
+}
+
+.card-button1:hover {
+  filter: blur(1px);
+}
+
 div#rightTitle h1 {
   font-size: 10em;
   color: white;
@@ -31,7 +39,7 @@ div#rightTitle h1 {
   font-weight: normal;
   text-shadow: 2px 1px grey;
   position: fixed;
-  top: 0px;
+  top: 1em;
 }
 
 .wrapper {
@@ -46,4 +54,8 @@ div#rightTitle {
 div#leftCards {
   width: 60%;
   float: left;
+}
+
+.card-content {
+  display: none;
 }

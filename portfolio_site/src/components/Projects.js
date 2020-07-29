@@ -3,6 +3,8 @@ import ProjectCard1 from './ProjectCards/ProjectCard1';
 import ProjectCard2 from './ProjectCards/ProjectCard2';
 import ProjectCard3 from './ProjectCards/ProjectCard3';
 import ProjectCard4 from './ProjectCards/ProjectCard4';
+import ProjectCard5 from './ProjectCards/ProjectCard5';
+import ProjectCard6 from './ProjectCards/ProjectCard6';
 
 function Project() {
   return (
@@ -36,6 +38,20 @@ function Project() {
             key= '4'
             id='4'
             name='Project4'
+            body='This project was a practise project where I designed a website for a vacuum company.'
+            image='image'
+            footer='footer' />
+          <ProjectCard5
+            key= '5'
+            id='5'
+            name='Project5'
+            body='This project was a practise project where I designed a website for a vacuum company.'
+            image='image'
+            footer='footer' />
+          <ProjectCard6
+            key= '6'
+            id='6'
+            name='Project6'
             body='This project was a practise project where I designed a website for a vacuum company.'
             image='image'
             footer='footer' />
