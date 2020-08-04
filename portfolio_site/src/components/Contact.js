@@ -5,9 +5,24 @@ class Contact extends Component {
     return (
       <div>
         <h2>GOT QUESTIONS?</h2>
-        <p>The easiest thing to do is post on
-        our <a href="http://forum.kirupa.com">forums</a>.
-        </p>
+        <h3>How to contact me on Social media</h3>
+        <p>twitter</p>
+        <p>github</p>
+        <p>facebook</p>
+        <p>linkedin</p>
+        <form>
+          <h1>Email Inquiry Form</h1>
+          <label for="name">
+            Name:
+            <input name="name" type="text" />
+          </label>
+          <label for="email">
+            Email:
+            <input name="email"type="email" />
+          </label>
+          <input type="submit"></input>
+          <input type="textarea"></input>
+        </form>
       </div>
     );
   }

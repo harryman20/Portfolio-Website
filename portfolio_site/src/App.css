@@ -44,8 +44,13 @@ img.social1 {
 }
 
 .footerContainer {
-  width: 11%;
+  width: 13%;
   text-align: center;
   background-color: rgba(255,255,255, 0.5);
   border-radius: 1.875rem;
+}
+
+.footerContainer, a.socialA {
+  margin: 0;
+  line-height: 0;
 }
