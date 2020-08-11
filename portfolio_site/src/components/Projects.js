@@ -5,6 +5,7 @@ import ProjectCard3 from './ProjectCards/ProjectCard3';
 import ProjectCard4 from './ProjectCards/ProjectCard4';
 import ProjectCard5 from './ProjectCards/ProjectCard5';
 import ProjectCard6 from './ProjectCards/ProjectCard6';
+import "./Home.css";
 
 function Project() {
   return (

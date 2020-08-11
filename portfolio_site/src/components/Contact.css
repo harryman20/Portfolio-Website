@@ -2,14 +2,6 @@ form.contact-form {
   text-align: center;
 }
 
-div.formContainer {
-  background-color: rgba(255,255,255, 0.3);
-  box-shadow: 1px 5px 5px rgba(0,0,0, 0.26);
-  border-radius: 2em;
-  padding-bottom: 2em;
-  padding-top: 2em;
-}
-
 input[type=text] {
   text-align: center;
   font-size: 1em;
@@ -43,17 +35,12 @@ input[type=phone] {
   box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
 }
 
-div.formContainer {
-  width: 40%;
-  margin: 0 auto;
-}
-
 div.inputCon {
   padding: 1.5em;
 }
 
 textarea {
-  width: 600px;
+  width: 90%;
 	height: 120px;
 	border: 2px solid #cccccc;
 	padding: 5px;
@@ -66,4 +53,47 @@ label {
   font-size: 1.1em;
   padding-bottom: 1em;
   display:block;
+}
+
+div.titleContainer {
+  background-image: url("./pexels-burst-374720.jpg");
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-top-right-radius: 0.5em;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.column {
+float: left;
+}
+
+.left {
+  width: 20%;
+}
+
+.middle {
+  width: 60%;
+  background-color: rgba(255,255,255, 0.85);
+  box-shadow: 1px 5px 5px rgba(0,0,0, 0.26);
+  border-radius: 0.5em;
+}
+
+.middle-left {
+  width: 50%;
+}
+
+.middle-right {
+  width: 50%;
+}
+
+.right {
+  width: 20%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
