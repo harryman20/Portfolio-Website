@@ -22,6 +22,14 @@ class Contact extends Component {
             <p></p>
           </div>
           <div className="column middle">
+            <div className="titleContainer">
+              <h1>
+                Contact Me!
+              </h1>
+              <p id="pText">
+                Fill out the form below to send me an email. I will respond as soon as I can. Please provide your email and/or your phone number so that I will be able to get back to you. Thank you for viewing my portfolio!
+              </p>
+            </div>
             <div className="column middle-left">
               <input type="hidden" name="contact_number" />
               <div className="inputCon">
@@ -40,24 +48,24 @@ class Contact extends Component {
                 <label htmlFor="message">Message*: </label>
                 <textarea name="message"/>
               </div>
-              <input type="submit" value="Send" />
+              <input className="submitButton" type="submit" value="Send" />
             </div>
             <div className="column middle-right">
-              <div className="titleContainer">
-                <h1>
-                  Contact Me!
-                </h1>
-                <p>
-                  Fill out the form below to send me an email. I will respond as soon as I can. Please provide your email and/or your phone number so that I will be able to get back to you. Thank you for viewing my portfolio!
-                </p>
-              </div>
               <div className="rightContent">
-              <p>Test</p>
+                <h2>My Contact Information</h2>
+                <h3>Social Media Links</h3>
+                <h4>Twitter</h4>
+                <h4>Facebook</h4>
+                <h4>LinkedIn</h4>
+                <h4>GitHub</h4>
+                <h3>Additional Information</h3>
+                <h4>Telephone: 1 519 890 2057</h4>
+                <h4>Email: harrisonsmith646@gmail.com</h4>
+                <h4>You can also reach out to me on discord. (request discord name in message on the left)</h4>
               </div>
             </div>
           </div>
           <div className="column right">
-            <p></p>
           </div>
         </form>
       </div>
