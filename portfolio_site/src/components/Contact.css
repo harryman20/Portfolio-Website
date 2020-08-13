@@ -10,7 +10,7 @@ input[type=text] {
   padding-right: 6em;
   padding-bottom: 0.4em;
   border: 0;
-  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  box-shadow: 0 0 15px 4px rgba(0,0,0,0.06);
 }
 
 input[type=email] {
@@ -21,7 +21,7 @@ input[type=email] {
   padding-right: 6em;
   padding-bottom: 0.4em;
   border: 0;
-  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  box-shadow: 0 0 15px 4px rgba(0,0,0,0.06);
 }
 
 input[type=phone] {
@@ -32,7 +32,7 @@ input[type=phone] {
   padding-right: 6em;
   padding-bottom: 0.4em;
   border: 0;
-  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  box-shadow: 0 0 15px 4px rgba(0,0,0,0.06);
 }
 
 div.inputCon {
@@ -120,4 +120,12 @@ div.titleContainer {
 #pText {
   margin-left: 10em;
   margin-right: 10em;
+}
+
+.rightContent {
+  color: rgb(88, 88, 88);
+}
+
+p#usernameError {
+ color: red;
 }

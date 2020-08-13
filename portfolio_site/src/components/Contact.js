@@ -2,10 +2,12 @@ import React, { Component } from "react";
 import emailjs from 'emailjs-com';
 import './Contact.css';
 import "./Home.css";
+import { useForm } from "react-hook-form";
+import { ErrorMessage } from '@hookform/error-message';
 
-class Contact extends Component {
-  render() {
-      function sendEmail(e) {
+export default function Contact() {
+    const { register, handleSubmit, watch, errors } = useForm();
+    function sendEmail(e) {
       e.preventDefault();
 
       emailjs.sendForm('default_service', 'real', e.target, 'user_S1owFNY9l8W7ZE3OKqia1')
@@ -14,10 +16,11 @@ class Contact extends Component {
         }, (error) => {
             console.log(error.text);
         });
-    }
+    };
+
     return (
       <div>
-        <form className="contact-form" onSubmit={sendEmail}>
+        <form className="contact-form" onSubmit={handleSubmit(sendEmail)}>
           <div className="column left">
             <p></p>
           </div>
@@ -34,19 +37,31 @@ class Contact extends Component {
               <input type="hidden" name="contact_number" />
               <div className="inputCon">
                 <label htmlFor="user_name">Name*: </label>
-                <input type="text" name="user_name" required />
+                <input type="text" ref={register({ required: "This is required" })} name="user_name" />
+                <br />
+                <ErrorMessage errors={errors} name="user_name">
+                  {({ message }) => <p id="usernameError">{message}</p>}
+                </ErrorMessage>
               </div>
               <div className="inputCon">
                 <label htmlFor="user_email">Email*: </label>
-                <input type="email" name="user_email" required />
+                <input refs="email" ref={register({ required: "This is required" })} type="email" name="user_email" />
+                <br />
+                <ErrorMessage errors={errors} name="user_email">
+                  {({ message }) => <p id="usernameError">{message}</p>}
+                </ErrorMessage>
               </div>
               <div className="inputCon">
                 <label htmlFor="phone">Phone-Number: </label>
-                <input type="phone" name="phone" required />
+                <input type="phone" name="phone" />
               </div>
               <div className="inputCon">
                 <label htmlFor="message">Message*: </label>
-                <textarea name="message"/>
+                <textarea ref={register({ required: "This is required" })} name="message"/>
+                <br />
+                <ErrorMessage errors={errors} name="user_email">
+                  {({ message }) => <p id="usernameError">{message}</p>}
+                </ErrorMessage>
               </div>
               <input className="submitButton" type="submit" value="Send" />
             </div>
@@ -71,6 +86,3 @@ class Contact extends Component {
       </div>
     );
   }
-}
-
-export default Contact;
