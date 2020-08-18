@@ -42,7 +42,7 @@ button:hover {
 
 a {
   text-decoration: none;
-  line-height: 2em;
+  line-height: 0.1em;
 }
 
 div#alert {
