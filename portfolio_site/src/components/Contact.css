@@ -57,7 +57,8 @@ label {
 }
 
 div.titleContainer {
-  background-image: url("./pexels-burst-374720.jpg");
+  background-image: url("../back-image.jpg");
+  border-bottom: solid 2px grey;
   padding-top: 1em;
   padding-bottom: 1em;
   border-top-right-radius: 0.5em;
@@ -120,6 +121,9 @@ div.titleContainer {
 #pText {
   margin-left: 10em;
   margin-right: 10em;
+  color: rgba(0, 0, 0, 0.7);
+  text-shadow: white 0px 0px 10px;
+  font-size: 1.1em;
 }
 
 .rightContent {
@@ -142,6 +146,12 @@ hr {
   padding-right: 1em;
   padding-left: 1em;
   margin-bottom: 1.4em;
+}
+
+#contactHeader {
+  font-size: 3.5em;
+  color: rgba(0, 0, 0, 0.7);
+  text-shadow: white 0px 0px 20px;
 }
 
 .imagesForSocial {

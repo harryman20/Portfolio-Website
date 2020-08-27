@@ -23,7 +23,7 @@ export default function Contact() {
          </div>
          <div className="column middle">
            <div className="titleContainer">
-             <h1>
+             <h1 id="contactHeader">
                Contact Me!
              </h1>
              <p id="pText">

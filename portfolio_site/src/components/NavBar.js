@@ -21,10 +21,10 @@ class NavBar extends Component {
           onMouseLeave={blurBackgroundEnd}
           src={pfp} alt="Logo" />
           <div className="rightNav">
-            <li><Link id="NavHome" to="/">Home</Link></li>
-            <li><Link id="NavProject" to="/projects">Projects</Link></li>
-            <li><Link id="NavAbout" to="/about">Who I Am</Link></li>
-            <li><Link id="NavContact" to="/contact">Contact</Link></li>
+            <li className="navLi"><Link id="NavHome" to="/">Home</Link></li>
+            <li className="navLi"><Link id="NavProject" to="/projects">Projects</Link></li>
+            <li className="navLi"><Link id="NavAbout" to="/about">Who I Am!</Link></li>
+            <li className="navLi"><Link id="NavContact" to="/contact">Contact</Link></li>
           </div>
         </ul>
       </nav>
