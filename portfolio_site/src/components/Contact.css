@@ -141,8 +141,28 @@ hr {
   display: inline-flex;
   padding-right: 1em;
   padding-left: 1em;
+  margin-bottom: 1.4em;
 }
 
 .imagesForSocial {
   width: 3rem;
+}
+
+h1#contactHead {
+  font-size: 2.8rem;
+}
+
+#line {
+  margin-bottom: 2em;
+  margin-top: 2em;
+}
+
+h2#head {
+  margin-bottom: 1.4em;
+  font-size: 2rem;
+}
+
+h2#head2 {
+  margin-bottom: 1em;
+  font-size: 2rem;
 }

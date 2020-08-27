@@ -53,17 +53,17 @@ export default function Contact() {
            <div className="column middle-right">
              <div className="rightContent">
                 <div className="rightConHeader">
-                  <h1>My Contact Information</h1>
-                  <hr></hr>
+                  <h1 id="contactHead">My Contact Information</h1>
+                  <hr id="line"></hr>
                 </div>
                 <div className="rightConContent">
-                  <h2>Social Media Links</h2>
+                  <h2 id="head">Social Media Links</h2>
                     <a className="socialImages" href=""><img className="imagesForSocial" src="./icons8-facebook-48.png" alt="facebook"/></a>
                     <a className="socialImages" href="https://www.linkedin.com/in/harry-smith-a97a29188/"><img className="imagesForSocial" src="./icons8-linkedin-48.png" alt="linkedin" /></a>
                     <a className="socialImages" href="https://twitter.com/harrymans97"><img className="imagesForSocial" src="./icons8-twitter-squared-48.png" alt="twitter" /></a>
                     <a className="socialImages" href="https://github.com/harryman20"><img className="imagesForSocial" src="./icons8-github-48.png" alt="gitHub" /></a>
-                  <h2>Additional Information</h2>
-                  <hr></hr>
+                  <h2 id="head2">Additional Information</h2>
+                  <hr id="line"></hr>
                   <h4>Telephone: 1 519 890 2057</h4>
                   <h4>Email: harrisonsmith646@gmail.com</h4>
                   <h4>You can also reach out to me on discord. (request discord name in message on the left)</h4>
