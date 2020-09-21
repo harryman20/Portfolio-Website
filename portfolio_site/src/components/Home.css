@@ -50,15 +50,27 @@ div#alert {
   position: relative;
 }
 
-button.funButton {
-  color: black;
-  float: right;
-  font-size: 1.2em;
-  background: rgba(255, 255, 255, 0.6);
-  padding: 10px 20px 10px 20px;
-  border: solid black 2px;
-  text-decoration: none;
-  margin-top: 2em;
-  display: block;
-  clear: both;
+#test {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
+  background-color: #009870;
+  transition: opacity 2s;
+  opacity: 0;
+}
+
+#lowerText {
+  transition: opacity 1s;
+}
+
+#headText {
+  transition: opacity 1s;
+}
+
+#moreButton {
+  transition: opacity 1s;
 }

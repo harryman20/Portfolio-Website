@@ -4,11 +4,17 @@ import '../Projects.css';
 var showContent = () => {
   document.getElementById('card-content1').style.display = "block";
   document.getElementById('card-wrapper1').style.filter = "grayscale(50%)";
+
+  const test1 = document.getElementById('card-wrapper1');
+  test1.style.height = '20em';
 }
 
 var hideContent = () => {
   document.getElementById('card-content1').style.display = "none";
   document.getElementById('card-wrapper1').style.filter = "grayscale(0%)";
+
+  const test1 = document.getElementById('card-wrapper1');
+  test1.style.height = '2em';
 }
 
 export default function ProjectCard1(props) {

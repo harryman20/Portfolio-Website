@@ -6,11 +6,31 @@ import pfp from "./DSC_2722.jpg";
 class NavBar extends Component {
   render(){
     function blurBackgroundStart() {
-      document.getElementById('blur').style.filter = "blur(2px)";
+      const test = document.getElementById('test');
+      test.style.opacity = '1';
+
+      const headerHide = document.getElementById('headText');
+      headerHide.style.opacity = '0';
+
+      const lowerHide = document.getElementById('lowerText');
+      lowerHide.style.opacity = '0';
+
+      const moreButton = document.getElementById('moreButton');
+      moreButton.style.opacity = '0';
     }
 
     function blurBackgroundEnd() {
-      document.getElementById('blur').style.filter = "blur(0px)";
+      const test = document.getElementById('test');
+      test.style.opacity = '0';
+
+      const headerHide = document.getElementById('headText');
+      headerHide.style.opacity = '1';
+
+      const lowerHide = document.getElementById('lowerText');
+      lowerHide.style.opacity = '1';
+
+      const moreButton = document.getElementById('moreButton');
+      moreButton.style.opacity = '1';
     }
     return (
      <div className="nav">

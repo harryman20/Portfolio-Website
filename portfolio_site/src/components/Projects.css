@@ -1,17 +1,18 @@
-.card-wrapper1, .card-wrapper3, .card-wrapper5 {
+.card-wrapper1, .card-wrapper3, .card-wrapper5, .card-wrapper2, .card-wrapper4, .card-wrapper6 {
   border: solid black 1px;
   border-radius: 0.3em;
-  width: 30%;
-  float: left;
-  padding: 2rem;
-  margin: 4rem;
-  height: 12rem;
+  width: 80%;
+  padding: 2em;
+  margin: 4em;
+  height: 2em;
   box-shadow: 5px 10px rgba(191, 190, 190, 0.40);
   background-image: url("./WEBSITE.jpg");
   background-color: #cccccc;
+  transition: 1s;
 }
 
-.card-wrapper2, .card-wrapper4, .card-wrapper6 {
+
+/* .card-wrapper2, .card-wrapper4, .card-wrapper6 {
   border: solid black 1px;
   border-radius: 0.3em;
   float: right;
@@ -22,14 +23,11 @@
   box-shadow: 5px 10px rgba(191, 190, 190, 0.40);
   background-image: url("./WEBSITE.jpg");
   background-color: #cccccc;
-}
+  transition: 1s;
+} */
 
 .card-content1, .card-content2, .card-content3, .card-content4, .card-content5, .card-content6 {
   display: none;
-}
-
-.card-button1:hover {
-  filter: blur(1px);
 }
 
 div#rightTitle h1 {
@@ -58,4 +56,9 @@ div#leftCards {
 
 .card-content {
   display: none;
+}
+
+.contentContainer {
+  width: 100%;
+  height: 100%;
 }

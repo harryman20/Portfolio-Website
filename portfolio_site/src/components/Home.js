@@ -8,9 +8,12 @@ class Home extends Component {
     return (
       <div id="hiddenElement">
         <div className="homeContainer">
-          <h1 className="headText">Hello! My name is Harrison.</h1>
-          <h2 className="lowerText">I am a Web Developer/ Web Designer.</h2>
-          <Link to="/about"><button className="moreButton">Learn More!</button></Link>
+          <h1 id="headText" className="headText">Hello! My name is Harrison.</h1>
+          <h2 id="lowerText" className="lowerText">I am a Web Developer/ Web Designer.</h2>
+          <Link to="/about"><button id="moreButton" className="moreButton">Learn More!</button></Link>
+        </div>
+        <div id="test">
+          Test
         </div>
       </div>
     );
