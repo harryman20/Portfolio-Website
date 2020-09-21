@@ -50,17 +50,23 @@ div#alert {
   position: relative;
 }
 
-#test {
-  width: 250px;
-  height: 250px;
+#secretPopup {
+  width: 50%;
+  height: 50%;
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 30%;
   margin-top: -50px;
   margin-left: -100px;
-  background-color: #009870;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
   transition: opacity 2s;
   opacity: 0;
+  text-align: center;
+}
+
+#secretMessage {
+  padding-top: 13%;
 }
 
 #lowerText {

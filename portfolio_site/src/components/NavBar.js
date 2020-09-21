@@ -6,7 +6,7 @@ import pfp from "./DSC_2722.jpg";
 class NavBar extends Component {
   render(){
     function blurBackgroundStart() {
-      const test = document.getElementById('test');
+      const test = document.getElementById('secretPopup');
       test.style.opacity = '1';
 
       const headerHide = document.getElementById('headText');
@@ -20,7 +20,7 @@ class NavBar extends Component {
     }
 
     function blurBackgroundEnd() {
-      const test = document.getElementById('test');
+      const test = document.getElementById('secretPopup');
       test.style.opacity = '0';
 
       const headerHide = document.getElementById('headText');

@@ -12,9 +12,8 @@ class Home extends Component {
           <h2 id="lowerText" className="lowerText">I am a Web Developer/ Web Designer.</h2>
           <Link to="/about"><button id="moreButton" className="moreButton">Learn More!</button></Link>
         </div>
-        <div id="test">
-          Test
-          This is a test donation
+        <div id="secretPopup">
+          <p id="secretMessage">Secret Message</p>
         </div>
       </div>
     );
