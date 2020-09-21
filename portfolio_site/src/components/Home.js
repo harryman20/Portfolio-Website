@@ -14,6 +14,7 @@ class Home extends Component {
         </div>
         <div id="test">
           Test
+          This is a test donation
         </div>
       </div>
     );

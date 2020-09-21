@@ -6,7 +6,7 @@ var showContent = () => {
   document.getElementById('card-wrapper2').style.filter = "grayscale(50%)";
 
   const test2 = document.getElementById('card-wrapper2');
-  test2.style.height = '20rem';
+  test2.style.height = '20em';
 }
 
 var hideContent = () => {
@@ -14,7 +14,7 @@ var hideContent = () => {
   document.getElementById('card-wrapper2').style.filter = "grayscale(0%)";
 
   const test2 = document.getElementById('card-wrapper2');
-  test2.style.height = '2rem';
+  test2.style.height = '2em';
 }
 
 export default function ProjectCard2(props) {
