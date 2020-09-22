@@ -8,9 +8,8 @@
   box-shadow: 5px 10px rgba(191, 190, 190, 0.40);
   background-image: url("./WEBSITE.jpg");
   background-color: #cccccc;
-  transition: 1s;
+  transition: 2s;
 }
-
 
 /* .card-wrapper2, .card-wrapper4, .card-wrapper6 {
   border: solid black 1px;
@@ -27,7 +26,8 @@
 } */
 
 .card-content1, .card-content2, .card-content3, .card-content4, .card-content5, .card-content6 {
-  display: none;
+  opacity: 0;
+  transition: 2s;
 }
 
 div#rightTitle h1 {
@@ -52,10 +52,6 @@ div#rightTitle {
 div#leftCards {
   width: 60%;
   float: left;
-}
-
-.card-content {
-  display: none;
 }
 
 .contentContainer {

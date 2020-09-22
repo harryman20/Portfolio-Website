@@ -2,19 +2,23 @@ import React from 'react';
 import '../Projects.css';
 
 var showContent = () => {
-  document.getElementById('card-content3').style.display = "block";
   document.getElementById('card-wrapper3').style.filter = "grayscale(50%)";
 
   const test3 = document.getElementById('card-wrapper3');
   test3.style.height = '20em';
+
+  const card3 = document.getElementById('card-content3');
+  card3.style.opacity = '1';
 }
 
 var hideContent = () => {
-  document.getElementById('card-content3').style.display = "none";
   document.getElementById('card-wrapper3').style.filter = "grayscale(0%)";
 
   const test3 = document.getElementById('card-wrapper3');
   test3.style.height = '2em';
+
+  const card3 = document.getElementById('card-content3');
+  card3.style.opacity = '0';
 }
 
 export default function ProjectCard3(props) {
@@ -25,7 +29,6 @@ export default function ProjectCard3(props) {
       </div>
       <div className="card-content3" id="card-content3">
         <h3>{props.body}</h3>
-        <h4>{props.image}</h4>
         <button>{props.footer}</button>
       </div>
     </div>

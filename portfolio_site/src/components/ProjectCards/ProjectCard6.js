@@ -25,7 +25,6 @@ export default function ProjectCard6(props) {
       </div>
       <div className="card-content6" id="card-content6">
         <h3>{props.body}</h3>
-        <h4>{props.image}</h4>
         <button>{props.footer}</button>
       </div>
     </div>

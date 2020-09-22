@@ -4,10 +4,9 @@ form.contact-form {
 
 input[type=text] {
   text-align: center;
+  width: 80%;
   font-size: 1em;
   padding-top: 0.4em;
-  padding-left: 6em;
-  padding-right: 6em;
   padding-bottom: 0.4em;
   border: 0;
   box-shadow: 0 0 15px 4px rgba(0,0,0,0.06);
@@ -17,8 +16,7 @@ input[type=email] {
   text-align: center;
   font-size: 1em;
   padding-top: 0.4em;
-  padding-left: 6em;
-  padding-right: 6em;
+  width: 80%;
   padding-bottom: 0.4em;
   border: 0;
   box-shadow: 0 0 15px 4px rgba(0,0,0,0.06);
@@ -28,8 +26,7 @@ input[type=phone] {
   text-align: center;
   font-size: 1em;
   padding-top: 0.4em;
-  padding-left: 6em;
-  padding-right: 6em;
+  width: 80%;
   padding-bottom: 0.4em;
   border: 0;
   box-shadow: 0 0 15px 4px rgba(0,0,0,0.06);
@@ -40,7 +37,7 @@ div.inputCon {
 }
 
 textarea {
-  width: 90%;
+  width: 80%;
 	height: 120px;
 	border: 2px solid #cccccc;
 	padding: 5px;
@@ -151,7 +148,7 @@ hr {
 #contactHeader {
   font-size: 3.5em;
   color: rgba(0, 0, 0, 0.7);
-  text-shadow: white 0px 0px 20px;
+  text-shadow: white 0px 0px 5px;
 }
 
 .imagesForSocial {

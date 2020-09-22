@@ -52,9 +52,9 @@ div#alert {
 
 #secretPopup {
   width: 50%;
-  height: 50%;
+  height: 30%;
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 30%;
   margin-top: -50px;
   margin-left: -100px;
