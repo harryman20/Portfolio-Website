@@ -8,26 +8,12 @@
   box-shadow: 5px 10px rgba(191, 190, 190, 0.40);
   background-image: url("./WEBSITE.jpg");
   background-color: #cccccc;
-  transition: 2s;
+  transition: 1.2s;
 }
-
-/* .card-wrapper2, .card-wrapper4, .card-wrapper6 {
-  border: solid black 1px;
-  border-radius: 0.3em;
-  float: right;
-  width: 30%;
-  padding: 2rem;
-  margin: 4rem;
-  height: 12rem;
-  box-shadow: 5px 10px rgba(191, 190, 190, 0.40);
-  background-image: url("./WEBSITE.jpg");
-  background-color: #cccccc;
-  transition: 1s;
-} */
 
 .card-content1, .card-content2, .card-content3, .card-content4, .card-content5, .card-content6 {
   opacity: 0;
-  transition: 2s;
+  transition: 1.2s;
 }
 
 div#rightTitle h1 {
