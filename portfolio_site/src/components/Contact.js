@@ -32,7 +32,7 @@ export default function Contact() {
            </div>
            <div className="column middle-left">
              <input type="hidden" name="contact_number" />
-             <div className="inputCon">
+             <div className="inputConTop">
                <label htmlFor="user_name">Name*: </label>
                <input type="text" name="user_name" required />
              </div>

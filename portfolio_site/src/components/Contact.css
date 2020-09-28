@@ -33,7 +33,12 @@ input[type=phone] {
 }
 
 div.inputCon {
-  padding: 1.5em;
+  padding-bottom: 1em;
+  padding-top: 0.5em;
+}
+
+div.inputConTop {
+  padding-top: 3.5em;
 }
 
 textarea {
@@ -77,6 +82,7 @@ div.titleContainer {
   background-color: rgba(255,255,255, 0.85);
   box-shadow: 1px 5px 5px rgba(0,0,0, 0.26);
   border-radius: 0.5em;
+  height: 87vh;
 }
 
 .middle-left {
