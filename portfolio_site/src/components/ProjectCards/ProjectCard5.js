@@ -25,11 +25,11 @@ export default function ProjectCard5(props) {
   return (
     <div onMouseEnter={showContent} onMouseLeave={hideContent} id="card-wrapper5" className="card-wrapper5">
       <div id="card-title5">
-        <h2>{props.name}</h2>
+        <h2 id="cardHeader">{props.name}</h2>
       </div>
       <div className="card-content5" id="card-content5">
-        <h3>{props.body}</h3>
-        <button>{props.footer}</button>
+        <h3 id="cardBody">{props.body}</h3>
+        <button id="cardButton" className="cardButton">See More!</button>
       </div>
     </div>
   );

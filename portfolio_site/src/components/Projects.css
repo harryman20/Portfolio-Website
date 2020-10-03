@@ -13,7 +13,12 @@
 
 .card-content1, .card-content2, .card-content3, .card-content4, .card-content5, .card-content6 {
   opacity: 0;
-  transition: 1.2s;
+  transition: 0.7s;
+  width: 30%;
+}
+
+h2#cardHeader {
+  font-size: 1.6em;
 }
 
 div#rightTitle h1 {
@@ -43,4 +48,17 @@ div#leftCards {
 .contentContainer {
   width: 100%;
   height: 100%;
+}
+
+.cardButton {
+  color: black;
+  font-size: 1em;
+  background: rgba(255, 255, 255, 0.6);
+  padding: 8px 18px 8px 18px;
+  border: solid black 2px;
+  text-decoration: none;
+  margin-top: 1em;
+  cursor:pointer;
+  display: block;
+  clear: both;
 }

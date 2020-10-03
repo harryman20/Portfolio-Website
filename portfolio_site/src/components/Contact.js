@@ -9,6 +9,7 @@ export default function Contact() {
 
       emailjs.sendForm('default_service', 'real', e.target, 'user_S1owFNY9l8W7ZE3OKqia1')
         .then((result) => {
+            alert("Message Sent!");
             console.log(result.text);
         }, (error) => {
             console.log(error.text);

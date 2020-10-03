@@ -4,18 +4,19 @@ html * {
 
 html {
   background-image: url("./back-image.jpg");
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: cover;
   width: 100%;
   padding: 0;
   margin: 0;
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
+  height: 160vh;
 }
 
 body {
   margin: 0;
-  height: 80vh;
+  height: 100vh;
   overflow: visible;
 }
 
