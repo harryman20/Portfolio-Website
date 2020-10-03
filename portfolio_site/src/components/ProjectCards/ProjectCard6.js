@@ -2,19 +2,23 @@ import React from 'react';
 import '../Projects.css';
 
 var showContent = () => {
-  document.getElementById('card-content6').style.display = "block";
   document.getElementById('card-wrapper6').style.filter = "grayscale(50%)";
 
   const test6 = document.getElementById('card-wrapper6');
   test6.style.height = '15em';
+
+  const card6 = document.getElementById('card-content6');
+  card6.style.opacity = '1';
 }
 
 var hideContent = () => {
-  document.getElementById('card-content6').style.display = "none";
   document.getElementById('card-wrapper6').style.filter = "grayscale(0%)";
 
   const test6 = document.getElementById('card-wrapper6');
   test6.style.height = '2em';
+
+  const card6 = document.getElementById('card-content6');
+  card6.style.opacity = '0';
 }
 
 export default function ProjectCard6(props) {

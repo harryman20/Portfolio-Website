@@ -2,19 +2,23 @@ import React from 'react';
 import '../Projects.css';
 
 var showContent = () => {
-  document.getElementById('card-content4').style.display = "block";
   document.getElementById('card-wrapper4').style.filter = "grayscale(50%)";
 
   const test4 = document.getElementById('card-wrapper4');
   test4.style.height = '20em';
+
+  const card4 = document.getElementById('card-content4');
+  card4.style.opacity = '1';
 }
 
 var hideContent = () => {
-  document.getElementById('card-content4').style.display = "none";
   document.getElementById('card-wrapper4').style.filter = "grayscale(0%)";
 
   const test4 = document.getElementById('card-wrapper4');
   test4.style.height = '2em';
+
+  const card4 = document.getElementById('card-content4');
+  card4.style.opacity = '0';
 }
 
 export default function ProjectCard4(props) {
